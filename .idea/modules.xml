@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/food data app with soonacular.iml" filepath="$PROJECT_DIR$/.idea/food data app with soonacular.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../run tests/.idea/run tests.iml" filepath="$PROJECT_DIR$/../run tests/.idea/run tests.iml" />
+    </modules>
+  </component>
+</project>

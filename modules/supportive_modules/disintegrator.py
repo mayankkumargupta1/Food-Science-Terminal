@@ -4,4 +4,5 @@ class break_input:
 
     def get(self):
         x = self.input
+        query = ''
         

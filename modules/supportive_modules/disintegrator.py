@@ -1,26 +1,14 @@
 class break_input:
-    def __int__(self, input):
-        self.input = input
+    def __init__(self, inp):
+        self.inp = inp
 
     def get(self):
-        x = self.input
-        x = x.split('>')
-        query = ''
-        protein = ''
-        fats = ''
-        carbohydrates = ''
-        calories = ''
-        sort = ''
+        x = self.inp
+        x = x.split('|')
 
-        for i in range(x):
-            if x[i] == 's':
-                query = x[i+1]
-            elif x[i] == 'p':
-                protein = x[i+1]
-            elif x[i] == 'f':
-                fats = x[i+1]
-            elif x[i] == 'c':
-                calories = x[i+1]
-            elif x[i] == 'a':
-                carbohydrates = x[i+1]
-            e
+        return tuple(x)
+
+
+if __name__ == "__main__":
+    a = break_input(input())
+    print(a.get())

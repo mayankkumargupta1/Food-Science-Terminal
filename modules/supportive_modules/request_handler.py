@@ -56,13 +56,3 @@ class urls:
         b = a.content
         c = b.decode()
         return c
-
-
-if __name__ == "__main__":
-    a = urls('https://api.spoonacular.com/recipes/', 'd4eaca8356904aafa8957ae5c3eb00ec')
-    url = a.build('pasta', (50, 100), (500, 1000), (0, 1000), '')
-    js = json.loads(url)
-
-    handler = j_handler('memory/build.json')
-    handler.create_json(js)
-    print(handler.read_json())

@@ -8,7 +8,3 @@ class break_input:
 
         return tuple(x)
 
-
-if __name__ == "__main__":
-    a = break_input(input())
-    print(a.get())
